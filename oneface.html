@@ -1,0 +1,89 @@
+<html>
+<head><meta charset="utf8">
+<meta name="一面">
+<meta name="keywords" content="一面" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="lang" key="title">About OneFace.一面</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C5STFYY6VX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-C5STFYY6VX');
+    </script>
+    <style>
+        body {
+            background-color: #000000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        a {
+            color: #000000;
+        }
+        #about-us {
+            position: absolute;
+            top: 20px;
+            right: 10px;
+        }
+        #logo {
+            display: block;
+        }
+        #small-text {
+            position: relative;
+            bottom: -100px;
+            right: 0px;
+            font-size: 14px;
+        }
+        #box {            
+            width: 390px;            
+            height: 580px;            
+            background-color: black;            
+            position: relative;
+        }        
+        #box.a {            
+            background-color: black;            
+            position: absolute;            
+            top: 50%;            
+            left: 50%;            
+            transform: translate(-50%, -50%);
+        }
+        #lang-switch {
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            cursor: pointer;
+            color: #757575;
+        }
+        #lang-switch2 {
+            cursor: pointer;
+            color: #757575;
+        }
+    </style>
+    <!-- language switching -->
+    <script src="language-switch.js"></script>
+</head>
+<body>
+    <!-- language switch link -->
+    <a id="lang-switch" onclick="switchLang()">Switch language</a>
+
+    <a href="https://oneface.net" id="about-us"><font color=#757575>BACK </font></a>
+    <div id="box">
+        <div id="a">
+            <font color=white >
+                <p class="lang" key="para1">“一面科技，一面艺术”这个表达有着深远的含义和内涵。它描绘了现代社会的两大重要领域：科技和艺术，同时也反映了人类对于科技和艺术的追求和理解。</p>
+                <p class="lang" key="para2">首先，"一面科技"代表了人类对于知识和未来的探索。科技是人类理性思维的产物，代表了人类对未知的探索、对环境的改造以及对未来的想象。科技的发展带来了巨大的社会变迁，提升了人类的生活质量，改变了我们的生活方式。它体现了人类对于进步、创新和发展的不懈追求。</p>
+                <p class="lang" key="para3">其次，"一面艺术"则代表了人类对于美的追求和人文精神的体现。艺术是人类情感和创造力的表现，通过艺术，人们能够表达自己的情感，理解他人，也能够赋予生活更多的情感色彩和意义。艺术带给我们的是审美的享受，精神的寄托，也是对人性的洞察和理解。它体现了人类对于美、对于情感、对于生活的独特理解和热爱。</p>
+                <p class="lang" key="para4">"一面科技，一面艺术"这个表达，从人文角度看，是科技与艺术的结合，也是理性与情感的结合。它揭示了现代社会人类活动的两大重要领域，并且提醒我们，即使在科技高速发展的今天，我们仍然需要艺术，需要情感，需要对生活的理解和对美的追求。这是一个全面反映人类精神追求的深刻表达。</p>
+                <p align=center><a id="lang-switch2" onclick="switchLang()">--Switch language--</a><br><font color=#757575>One face of technology, one face of art &nbsp;&nbsp;</font></p>
+            </font>
+        </div>
+    </div>
+    <div id="small-text">&nbsp;</div>
+</body>
+</html>

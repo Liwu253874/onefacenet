@@ -1,0 +1,12 @@
+# robots.txt for oneface dallas
+# 禁止百度和360搜索引擎的爬虫
+User-agent: Baiduspider
+User-agent: 360Spider
+Disallow: /
+
+# 允许其他所有搜索引擎的爬虫
+User-agent: *
+Disallow:
+
+# 禁止访问 data 文件夹下的所有内容
+Disallow: /data/
